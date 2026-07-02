@@ -147,6 +147,8 @@ struct SettingsView: View {
     }
 }
 
+#if DEBUG
 #Preview {
     SettingsView(dependencies: PreviewDependenciesFactory.make())
 }
+#endif

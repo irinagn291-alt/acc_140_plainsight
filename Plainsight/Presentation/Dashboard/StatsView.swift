@@ -135,6 +135,8 @@ struct StatsView: View {
     }
 }
 
+#if DEBUG
 #Preview {
     StatsView(dependencies: PreviewDependenciesFactory.make())
 }
+#endif

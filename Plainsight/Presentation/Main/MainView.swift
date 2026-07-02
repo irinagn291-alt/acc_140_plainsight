@@ -148,6 +148,8 @@ struct MainView: View {
     }
 }
 
+#if DEBUG
 #Preview {
     MainView(dependencies: PreviewDependenciesFactory.make())
 }
+#endif
