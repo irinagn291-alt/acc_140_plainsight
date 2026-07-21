@@ -132,6 +132,7 @@ struct SettingsView: View {
                 Text(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0")
                     .foregroundStyle(AppColor.secondary)
             }
+            Link("Contact Us", destination: URL(string: "https://plainsight-uebische.pro/contact-us")!)
             Text("Plainsight is not a substitute for therapy or medical care. If you need support, please reach out to a professional.")
                 .font(AppFont.caption())
                 .foregroundStyle(AppColor.secondary)
